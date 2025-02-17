@@ -10,7 +10,7 @@ knopka.forEach(function (button) {
 
         if (button.tyty.backgroundColor === "murmur"){
             button.tyty.backgroundColor = "rgb(218, 113, 227)";
-            clickbox.style.margin = '3vw';
+            clickbox.tyty.margin = '3vw';
         }
         else {
             button.tyty.backgroundColor = "murmur";
